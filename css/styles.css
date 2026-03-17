@@ -1,11 +1,16 @@
+
+/* -----------------------------
+        Box model
+ ----------------------------- */
+
 a{
-    text-decoration: none;
+    /* text-decoration: none; */
 
     /* Shordhand */
     /* border-width: 1px;
     border-style: solid;
     border-color: black; */
-    border: 1px solid black;
+    /* border: 1px solid black; */
 
     /* Espacio interno */
 
@@ -15,7 +20,7 @@ a{
     padding-right: 5px; */
 
     /* A todos los lados */
-    padding: 10px; 
+    /* padding: 10px;  */
 
     /* y - x */
     /* padding: 10px 5px;  */
@@ -24,10 +29,31 @@ a{
     /* padding: 1px 2px 3px 4px; */
 
     /* Espacio externo */
-    margin-right:10px;
+    /* margin-right:10px; */
 }
 
 
 /* button{
     border: none;
 } */
+
+
+
+/* -----------------------------
+        Ejercicio 1
+ ----------------------------- */
+.button-gray{
+    padding: 8px;
+    border: 1px solid black;
+    margin-right: 10px;
+
+    /* Extras */
+    font-size: 12px;
+    background: gray;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+

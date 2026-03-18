@@ -101,5 +101,16 @@ ul + p{
 
 /* Selector de hijo primarios */
 body > p{
-    background: tomato;
+    /* background: tomato; */
 }
+
+
+/* Pseudo-elementos */
+p::first-letter{
+    /* color: tomato */
+}
+
+p::first-line{
+    color: tomato
+}   
+

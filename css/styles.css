@@ -42,6 +42,10 @@ a{
 /* -----------------------------
         Ejercicio 1
  ----------------------------- */
+body{
+    margin-top:20px
+}
+
 .button-gray{
     padding: 8px;
     border: 1px solid black;
@@ -57,3 +61,45 @@ a{
 
 
 
+/* -----------------------------
+        Selectores
+ ----------------------------- */
+
+ /* Etiqueta */
+p{}
+
+/* Clase */
+.button-gray{}
+
+/* ID */
+#id-name{}
+
+/* global */
+*{}
+
+
+/* Selector de descendiente */
+div.wrapper p a strong{
+    /* margin-top: 0; */
+    /* margin-bottom: 10px; */
+    /* background: tomato; */
+}
+
+/* Selector multiple */
+p, 
+a, 
+strong,
+{
+
+}
+
+
+/* selector adyacente */
+ul + p{
+    /* background: tomato; */
+}
+
+/* Selector de hijo primarios */
+body > p{
+    background: tomato;
+}

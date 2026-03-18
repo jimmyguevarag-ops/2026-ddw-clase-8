@@ -106,11 +106,33 @@ body > p{
 
 
 /* Pseudo-elementos */
-p::first-letter{
+p:first-letter{
     /* color: tomato */
 }
 
-p::first-line{
+p:first-line{
     color: tomato
 }   
 
+
+/* Pseudo-clases */
+/* .button-gray:hover{
+    background-color:black;
+    color: white;
+} */
+
+
+/* Estado normal */
+.button-tomato{
+    color: white;
+    background-color: tomato;
+
+    padding: 5px 10px;
+    border: 1px solid tomato;
+}
+
+/* Estado hover */
+.button-tomato:hover{
+    background: white;   
+    color: tomato;
+}
